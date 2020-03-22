@@ -1,0 +1,131 @@
+﻿"lang"
+{
+	"Language"		"English"
+	"Tokens"
+	{		
+		"addon_game_name"															      "History of the Swamp"
+
+		// ******************** HEROES ********************
+		"npc_dota_hero_templar_assassin"                                                  "Nikita"
+		"npc_dota_hero_slark"                                                             "Olegg"
+		"npc_dota_hero_legion_commander"                                                  "Shabalina"
+		"npc_dota_hero_bristleback"                                                       "Michael Chlen"
+		
+		// ******************** UNITS ********************
+		
+		// ******************** ABILITY MODIFIERS ********************
+
+			"DOTA_Tooltip_modifier_berserkers_call_caster_datadriven"                         "Berserkers Call Caster Datadriven"
+			"DOTA_Tooltip_modifier_berserkers_call_caster_datadriven_Description"             ""
+
+			"DOTA_Tooltip_modifier_beserkers_call_enemy_datadriven"                           "Agro na OLEG'a"
+			"DOTA_Tooltip_modifier_beserkers_call_enemy_datadriven_Description"               ""
+
+			"DOTA_Tooltip_modifier_speed_buff"                                                "On the skate"
+			"DOTA_Tooltip_modifier_speed_buff_Description"                                    ""
+
+			"DOTA_Tooltip_modifier_duel_datadriven"                                           "Dispute winner"
+			"DOTA_Tooltip_modifier_duel_datadriven_Description"                               ""
+
+			"DOTA_Tooltip_modifier_duel_damage_datadriven"                                    "FACTs!"
+			"DOTA_Tooltip_modifier_duel_damage_datadriven_Description"                        ""
+
+			"DOTA_Tooltip_modifier_metamorphosis"                                    		  "Drunnform"
+			"DOTA_Tooltip_modifier_metamorphosis_Description"                                 ""
+
+			"DOTA_Tooltip_modifier_doppelganger_datadriven"                                   "Party"
+			"DOTA_Tooltip_modifier_doppelganger_datadriven_Description"                       ""
+
+			"DOTA_Tooltip_modifier_ancient_seal_hero_debuff_datadriven"                       "No comments"
+			"DOTA_Tooltip_modifier_ancient_seal_hero_debuff_datadriven_Description"           ""
+
+			"DOTA_Tooltip_modifier_ancient_seal_basic_debuff_datadriven"                      "No comments"
+			"DOTA_Tooltip_modifier_ancient_seal_basic_debuff_datadriven_Description"          ""
+
+		// ******************** ITEM MODIFIERS ********************
+
+		// ******************** ABILITIES ********************
+
+			//=====================================================================================
+	  		// Nikita
+	  		//=====================================================================================
+
+				// Call
+				"DOTA_Tooltip_ability_call"														  "Nikita's Call"
+				"DOTA_Tooltip_ability_call_Description"											  "That’s call scares all. Its creator is Marshall N.i.k.i.t.a.(Nigga in keep in touch anywhere) . He uses it when going to go hunt in the forest"
+				"DOTA_Tooltip_ability_call_radius"                                                "RADIUS:"
+				"DOTA_Tooltip_ability_call_bonus_armor"                                           "BONUS ARMOR:"
+				"DOTA_Tooltip_ability_call_duration"                                              "DURATION:"
+				
+				// Rightly
+				"DOTA_Tooltip_ability_rightly"                                                    "Rightly"
+				"DOTA_Tooltip_ability_rightly_Description"                                        "His blades are made by a master of the coal industry"
+				"DOTA_Tooltip_ability_rightly_crit_bonus"                                         "CRIT BONUS:"
+				"DOTA_Tooltip_ability_rightly_crit_chance"                                        "CRIT CHANCE:"
+
+				// Ride On A Skateboard
+				"DOTA_Tooltip_ability_ride_on_a_skateboard"                                       "Ride On A Skateboard"
+				"DOTA_Tooltip_ability_ride_on_a_skateboard_Description"                           ""
+				"DOTA_Tooltip_ability_ride_on_a_skateboard_min_proc_distance"                     "MIN PROC DISTANCE:"
+				"DOTA_Tooltip_ability_ride_on_a_skateboard_max_proc_distance"                     "MAX PROC DISTANCE:"
+				"DOTA_Tooltip_ability_ride_on_a_skateboard_rush_speed"                            "RUSH SPEED:"
+				"DOTA_Tooltip_ability_ride_on_a_skateboard_buff_duration"                         "BUFF DURATION:"
+
+				// Provoke A Dispute
+				"DOTA_Tooltip_ability_provoke_a_dispute"                                          "Provoke A Dispute"
+				"DOTA_Tooltip_ability_provoke_a_dispute_Description"                              ""
+				"DOTA_Tooltip_ability_provoke_a_dispute_duration"                                 "DURATION:"
+				"DOTA_Tooltip_ability_provoke_a_dispute_reward_damage"                            "REWARD DAMAGE:"
+
+
+			//=====================================================================================
+	  		// Olegg
+	  		//=====================================================================================
+
+				// Drunn-Trans
+				"DOTA_Tooltip_ability_drunntrans"                                                 "Drunn-trans"
+				"DOTA_Tooltip_ability_drunntrans_Description"                                     ""
+				"DOTA_Tooltip_ability_drunntrans_duration"                                        "DURATION:"
+				"DOTA_Tooltip_ability_drunntrans_transformation_time"                             "TRANSFORMATION TIME:"
+				"DOTA_Tooltip_ability_drunntrans_base_attack_time"                                "BASE ATTACK TIME:"
+				"DOTA_Tooltip_ability_drunntrans_bonus_range"                                     "BONUS RANGE:"
+				"DOTA_Tooltip_ability_drunntrans_tooltip_attack_range"                            "TOOLTIP ATTACK RANGE:"
+				"DOTA_Tooltip_ability_drunntrans_bonus_damage"                                    "BONUS DAMAGE:"
+				"DOTA_Tooltip_ability_drunntrans_speed_loss"                                      "SPEED LOSS:"
+
+				"DOTA_Tooltip_ability_hammerhead"                                                 "Hammerhead"
+				"DOTA_Tooltip_ability_hammerhead_Description"                                     ""
+				"DOTA_Tooltip_ability_hammerhead_radius"                                          "RADIUS:"
+				"DOTA_Tooltip_ability_hammerhead_trigger_chance"                                  "TRIGGER CHANCE:"
+				"DOTA_Tooltip_ability_hammerhead_cooldown"                                        "COOLDOWN:"
+				"DOTA_Tooltip_ability_hammerhead_trigger_radius"                                  "TRIGGER RADIUS:"
+
+				"DOTA_Tooltip_ability_party"                                                      "Party"
+				"DOTA_Tooltip_ability_party_Description"                                          ""
+				"DOTA_Tooltip_ability_party_target_radius"                                        "TARGET RADIUS:"
+				"DOTA_Tooltip_ability_party_illusion_gather_radius"                               "ILLUSION GATHER RADIUS:"
+				"DOTA_Tooltip_ability_party_delay"                                                "DELAY:"
+				"DOTA_Tooltip_ability_party_illusion_duration"                                    "ILLUSION DURATION:"
+				"DOTA_Tooltip_ability_party_first_illusion_outgoing_damage"                       "FIRST ILLUSION OUTGOING DAMAGE:"
+				"DOTA_Tooltip_ability_party_first_illusion_incoming_damage"                       "FIRST ILLUSION INCOMING DAMAGE:"
+				"DOTA_Tooltip_ability_party_second_illusion_outgoing_damage"                      "SECOND ILLUSION OUTGOING DAMAGE:"
+				"DOTA_Tooltip_ability_party_second_illusion_incoming_damage"                      "SECOND ILLUSION INCOMING DAMAGE:"
+
+				"DOTA_Tooltip_ability_suck"                                                       "Suck"
+				"DOTA_Tooltip_ability_suck_Description"                                           ""
+				"DOTA_Tooltip_ability_suck_resist_debuff"                                         "RESIST DEBUFF:"
+				"DOTA_Tooltip_ability_suck_seal_duration"                                         "SEAL DURATION:"
+				"DOTA_Tooltip_ability_suck_duration"                                              "DURATION:"
+
+			//=====================================================================================
+	  		// Shabalina
+	  		//=====================================================================================
+
+				// Start speak
+				"DOTA_Tooltip_ability_start_speak"                                                "Start a Speak"
+				"DOTA_Tooltip_ability_start_speak_Description"                                    ""
+
+		// ******************** ITEMS ********************
+
+	}
+}

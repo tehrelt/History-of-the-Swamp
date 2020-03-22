@@ -1,0 +1,8 @@
+"CustomHeroList"
+{
+	"npc_dota_hero_templar_assassin" 		"1"
+	"npc_dota_hero_slark"					"1"
+	"npc_dota_hero_legion_commander"		"1"
+	"npc_dota_hero_bristleback"				"1"
+	"npc_dota_hero_troll_warlord"			"1"
+}
