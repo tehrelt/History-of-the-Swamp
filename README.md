@@ -88,7 +88,7 @@ Passive:
 3. To-Do
 4. To-Do
 
-### Misha Chlen
+### Michael Chlen
 
 #### Spells:
 
@@ -132,7 +132,9 @@ Passive:
 
 ### 0.1
 
-- 
-
-
+- Added [N.k.i.t.a.](#n.i.k.i.t.a.)
+- Added [OLEGG](#olegg)
+- Added [Shabalina](#shabalina)
+- Added [Michael Chlen](#Michael-Chlen)
+- Added [Stas Rusin](#stas-rusin)
 
