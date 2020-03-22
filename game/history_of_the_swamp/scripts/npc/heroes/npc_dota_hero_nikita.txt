@@ -1,0 +1,13 @@
+//=================================================================================================================
+// HERO: Nikita
+//=================================================================================================================
+"npc_dota_hero_nikita"
+{
+	"override_hero"				"npc_dota_hero_templar_assassin"
+	"Ability1"					"rightly"		
+	"Ability2" 					"call"			
+	"Ability3"					"ride_on_a_skateboard"
+	"Ability4"					"generic_hidden"
+	"Ability5"					"generic_hidden"
+	"Ability6"					"provoke_a_dispute"
+}

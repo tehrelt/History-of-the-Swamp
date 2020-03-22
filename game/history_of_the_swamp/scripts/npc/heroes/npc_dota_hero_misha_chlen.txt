@@ -1,0 +1,13 @@
+//=================================================================================================================
+// HERO: Misha Chlen
+//=================================================================================================================
+"npc_dota_hero_misha_chlen"
+{
+	"override_hero"				"npc_dota_hero_bristleback"
+	"Ability1"					"blow_nose"
+	"Ability2"					"golden_bank_of_the_boogers"
+	"Ability3"					"invite_to_the_party"
+	"Ability4"					"generic_hidden"
+	"Ability5"					"generic_hidden"
+	"Ability6"					"gobble_up_a_goat"
+}
