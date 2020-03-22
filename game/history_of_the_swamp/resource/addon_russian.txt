@@ -10,7 +10,7 @@
 		"npc_dota_hero_slark"                                                             "ОлеГГ"
 		"npc_dota_hero_legion_commander"                                                  "Шабалина"
 		"npc_dota_hero_bristleback"                                                       "Майкл Член"
-		"npc_dota_hero_troll_warlord"                                                     "Стас Русин"
+		"npc_dota_hero_lion"                                                     		  "Стас Русин"
 		
 		// ******************** UNITS ********************
 		

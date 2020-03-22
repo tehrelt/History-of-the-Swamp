@@ -66,19 +66,12 @@
 
 	"npc_dota_hero_stas_rusin"
 	{
-		"override_hero"				"npc_dota_hero_troll_warlord"
+		"override_hero"				"npc_dota_hero_lion"
 		"Ability1"					"really_serious"
-		"Ability2"					"really_death"
-		"Ability3"					"serious_death"
-		"Ability4"					"generic_hidden"
-		"Ability5"					"generic_hidden"
-		"Ability6"					""
-
-		"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
-
-		"AttributeBaseIntelligence"		"25"
-		"AttributeIntelligenceGain"		"3.300000"
-
-		"AttributeAgilityGain"		"2.000000"
+		"Ability2"					"submit_solution_really"
+		"Ability3"					"submit_solution_serious"
+		"Ability4"					"chicane"
+		"Ability5"					"really_death"
+		"Ability6"					"serious_death"
 	}
 }
