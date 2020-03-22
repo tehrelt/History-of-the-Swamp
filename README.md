@@ -5,38 +5,12 @@
   - [N.k.i.t.a.](#n.i.k.i.t.a.)
   - [OLEGG](#olegg)
   - 
-- [Notes](H.O.T.S.%20-%20Notes.md)
+- [Notes](#notes)
 - [Changelog](#changelog)
 
 ## Items
 
-1. [Nikita's call](#nikitas-call)
 2. [Oleg’s glasses](#olegs-glasses)
-3. [Joster’s shit](#josters-shit)
-
-### Nikita’s call
-
-Description:
-
-> That’s call scares all. Its creator is Marshall N.i.k.i.t.a.(Nigga in keep in touch anywhere) . He uses it when going to go hunt in the forest
-
-Stats:
-
-1. Cost: 
-2. Manacost: 
-3. Cooldown: 18
-4. Recipe:
-   1. Gloves of haste
-   2. Sage’s mask
-
-Active:
-
-1. Stunning enemies in radius
-
-Passive:
-
-1. Agility: 75
-2. Radius: 800
 
 ### Oleg’s glasses
 
@@ -63,33 +37,6 @@ Passive:
 2. Radius: 1600
 3. Range: 1000 
 
-
-
-### Joster’s shit
-
-Description:
-
-> Don’t asking what’s this.
-
-Stats: 
-
-1. Cost:
-2. Manacost:
-
-Active:
-
-Passive:
-
-1. Attack stacks
-
-   > When stacks above 7 use Dagon on the enemy, then the item is cooldown
-
-2. Intelligence: 75
-
-3. Cooldown: 
-
-
-
 ## Heroes
 
 ### N.i.k.i.t.a.
@@ -97,18 +44,40 @@ Passive:
 #### Spells:
 
 1. Вой
+
+   > AOE Стан
+
 2. Абсолютно справедливо
+
+   > Криты
+
 3. На скейте
+
+   > Ускорение к врагу
+
 4. Начать спорить
+
+   > Дуэль
 
 ### OLEGG
 
 #### Spells:
 
 1. Drunn-Trans
+
+   > Трансформация в Друнна
+
 2. Молотобойка
+
+   > Пассивка axe’a
+
 3. Вписон
+
+   > Doppelgangel phantom lancer’a
+
 4. Пососи
+
+   > От этих слов враг впадает в недоумение не может ничего сказать (*Silence*) и Олегг становится максимально не приятен врагу
 
 ### Shabalina
 
@@ -125,11 +94,15 @@ Passive:
 
 1. Сморкнутся
 
+   > Замедление
+
 2. Золотой банк козявок
 
-   > Повышает income
+   > Повышает **damage** и **move speed**
 
 3. Пригласить на вписон
+
+   > Silence
 
 4. Сожрать козявку
 
@@ -137,20 +110,23 @@ Passive:
 
 ### Stas Rusin
 
-#### Description:
-
-> ​	У этого перса 
-
 #### Spells:
 
-1. To-Do
-2. To-Do
+1. Реальный / Серьёзный режим
+
+2. 
+
 3. To-Do
+
 4. To-Do
+
+5. Чтоб они все сдохли РЕАЛЬНО / Чтоб они все сдохли СЕРЬЁЗНО
+
+   > Ульта zeus’a / 2 скилл зевса
 
 ## Notes
 
-
+1. [**Trello Board**](https://trello.com/b/5DfpUtsu/history-of-the-swamp)
 
 ## Changelog
 
