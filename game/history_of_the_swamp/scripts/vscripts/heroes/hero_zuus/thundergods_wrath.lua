@@ -40,3 +40,19 @@ function LevelUpAbility( event )
 		ability_handle:SetLevel(this_abilityLevel)
 	end
 end
+
+function FuckedUpAnything( event )
+	local caster = event.caster
+	local this_ability = event.ability		
+	local this_abilityName = this_ability:GetAbilityName()
+	local this_abilityCooldown = this_ability:GetCooldownTime() 
+
+	-- The ability to cooldown
+	local ability_name = event.ability_name
+	local ability_handle = caster:FindAbilityByName(ability_name)	
+	local ability_cooldown = ability_handle:GetCooldownTime()
+
+	if ability_cooldown ~= this_abilityCooldown then
+		ability_handle:StartCooldown(this_abilityCooldown)
+	end
+end

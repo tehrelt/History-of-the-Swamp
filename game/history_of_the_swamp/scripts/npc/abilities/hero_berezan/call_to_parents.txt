@@ -1,0 +1,61 @@
+"call_to_parents"
+{
+	"BaseClass"             		"ability_datadriven"
+	"AbilityTextureName"			"Berezan/2"
+	"MaxLevel" 						"4"
+	"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+	"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+	"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+	"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+	"AbilityCooldown"				"7.0"
+	"AbilityManaCost"				"100"
+	"AbilityDamage"					"25 45 100 150"
+
+
+	"AbilitySpecial"
+	{
+		"01"
+		{
+			"var_type"			"FIELD_INTEGER"
+			"tick_speed"			"1"
+		}
+		"02"
+		{
+			"var_type"			"FIELD_FLOAT"
+			"duration"		"5.0 5.0 5.0 6.0"
+		}
+	}
+
+	"OnSpellStart"
+	{
+		"ApplyModifier"
+		{
+			"ModifierName"	"modifier_call_to_parents"
+			"Target" 		"TARGET"
+			"Duration"		"%duration"
+		}
+	}
+
+	"Modifiers"
+	{
+		"modifier_call_to_parents"
+		{
+			"IsDebuff"			"1"
+			"Duration"			"%duration"
+	
+			"EffectName"		"particle_name"
+			"EffectAttachType"	"follow_origin"
+			
+			"ThinkInterval"  "%tick_speed"
+			"OnIntervalThink"
+			{
+				"Damage"
+				{
+					"Target"		"TARGET"
+					"Type"			"DAMAGE_TYPE_MAGICAL"
+					"Damage"		"%AbilityDamage"
+				}
+			}
+		}
+	}
+}

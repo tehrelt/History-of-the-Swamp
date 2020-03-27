@@ -1,0 +1,75 @@
+"submit_solution_serious"
+    {
+    	"BaseClass"             		"ability_datadriven"
+    	"AbilityTextureName"			"Stas/2s"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+    	"MaxLevel" 						"4" 
+    	"AbilityManaCost"				"60"
+
+    	"AbilityCooldown"				"12.0 10.0 8.0 6.0"
+
+    	 "AbilitySpecial"
+    	 {
+    	 	"01"
+    	 	{
+    	 		"var_type"			"FIELD_INTEGER"
+    	 		"armor_bonus"			"-25"
+    	 	}
+    	 	"02"
+    	 	{
+    	 		"var_type"			"FIELD_FLOAT"
+    	 		"duration"		"3.0 4.0 5.0"
+    	 	}
+    	 }
+
+    	 "OnSpellStart"
+    	 {
+    	 	"ApplyModifier"
+    	 	{
+    	 		"ModifierName"	"modifier_stas_solution_ser"
+    	 		"Target" 		"CASTER"
+    	 		"Duration"		"%duration"
+    	 	}
+
+    	 	"RunScript"
+            {
+                "ScriptFile"    "heroes/hero_zuus/thundergods_wrath.lua"
+                "Function"        "FuckedUpAnything"
+                "ability_name"    "submit_solution_really"
+            }
+
+    	 }
+
+
+		"OnUpgrade"
+        {
+            "RunScript"
+            {
+                "ScriptFile"    	"heroes/hero_zuus/thundergods_wrath.lua"
+                "Function"        	"LevelUpAbility"
+                "ability_name"    	"submit_solution_really"
+            }
+        }
+
+    	 "Modifiers"
+    	 {
+    	 	"modifier_stas_solution_ser"
+    	 	{
+    	 		"IsDebuff"			"1"
+    	 		
+
+	            "StatusEffectName"         "particles/status_fx/status_effect_life_stealer_rage.vpcf"        
+	            "StatusEffectPriority"  "10"
+
+    	 		"Properties"
+            	{
+                	"MODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS" 	"%armor_bonus"
+            	}
+
+    	 		"States"
+    	 		{
+    	 			 "MODIFIER_STATE_MAGIC_IMMUNE"        		"MODIFIER_STATE_VALUE_ENABLED"
+    	 		}
+    	 	}
+    	 }
+    }

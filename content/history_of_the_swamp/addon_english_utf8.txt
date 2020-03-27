@@ -10,9 +10,17 @@
 		"npc_dota_hero_slark"                                                             "Olegg"
 		"npc_dota_hero_legion_commander"                                                  "Shabalina"
 		"npc_dota_hero_bristleback"                                                       "Michael Chlen"
+		"npc_dota_hero_lion"                                                     		  "Stas Rusin"
+		"npc_dota_hero_death_prophet"												   	  "Berezan"
 		
 		// ******************** UNITS ********************
 		
+			"npc_dota_hero_nikita"                                                            "Dota Hero Nikita"
+			"npc_dota_hero_olegg"                                                             "Dota Hero Olegg"
+			"npc_dota_hero_shabalina"                                                         "Dota Hero Shabalina"
+			"npc_dota_hero_misha_chlen"                                                       "Dota Hero Misha Chlen"
+			"npc_dota_hero_stas_rusin"                                                        "Dota Hero Stas Rusin"
+
 		// ******************** ABILITY MODIFIERS ********************
 
 			"DOTA_Tooltip_modifier_berserkers_call_caster_datadriven"                         "Berserkers Call Caster Datadriven"
@@ -41,6 +49,34 @@
 
 			"DOTA_Tooltip_modifier_ancient_seal_basic_debuff_datadriven"                      "No comments"
 			"DOTA_Tooltip_modifier_ancient_seal_basic_debuff_datadriven_Description"          ""
+
+			"DOTA_Tooltip_modifier_viscous_nasal_goo_datadriven_stack_creep"                  "Viscous Nasal Goo Stack"
+			"DOTA_Tooltip_modifier_viscous_nasal_goo_datadriven_stack_creep_Description"      ""
+
+			"DOTA_Tooltip_modifier_viscous_nasal_goo_datadriven_stack_hero"                   "Viscous Nasal Goo Stack"
+			"DOTA_Tooltip_modifier_viscous_nasal_goo_datadriven_stack_hero_Description"       ""
+
+			"DOTA_Tooltip_modifier_warpath_datadriven_counter"                                "Warpath Counter"
+			"DOTA_Tooltip_modifier_warpath_datadriven_counter_Description"                    ""
+
+			"DOTA_Tooltip_modifier_party_silence"                                             "Party Silence"
+			"DOTA_Tooltip_modifier_party_silence_Description"                                 ""
+
+			"DOTA_Tooltip_modifier_chemical_rage"                                             "Chemical Rage"
+			"DOTA_Tooltip_modifier_chemical_rage_Description"                                 ""
+
+			"DOTA_Tooltip_modifier_thundergods_wrath_datadriven"                              "Thundergods Wrath Datadriven"
+			"DOTA_Tooltip_modifier_thundergods_wrath_datadriven_Description"                  ""
+
+			"DOTA_Tooltip_modifier_decrepify_ally"                                            ""
+			"DOTA_Tooltip_modifier_decrepify_ally_Description"                                ""
+
+			"DOTA_Tooltip_modifier_stas_solution_ser"                                         "Stas Solution Ser"
+			"DOTA_Tooltip_modifier_stas_solution_ser_Description"                             ""
+
+			"DOTA_Tooltip_modifier_chic_stacks_datadriven"                                    "Chic Stacks Datadriven"
+			"DOTA_Tooltip_modifier_chic_stacks_datadriven_Description"                        ""
+
 
 		// ******************** ITEM MODIFIERS ********************
 
@@ -76,7 +112,6 @@
 				"DOTA_Tooltip_ability_provoke_a_dispute_Description"                              ""
 				"DOTA_Tooltip_ability_provoke_a_dispute_duration"                                 "DURATION:"
 				"DOTA_Tooltip_ability_provoke_a_dispute_reward_damage"                            "REWARD DAMAGE:"
-
 
 			//=====================================================================================
 	  		// Olegg
@@ -124,6 +159,96 @@
 				// Start speak
 				"DOTA_Tooltip_ability_start_speak"                                                "Start a Speak"
 				"DOTA_Tooltip_ability_start_speak_Description"                                    ""
+
+			//=====================================================================================
+	  		// Michael Chlen
+	  		//=====================================================================================
+	  			"DOTA_Tooltip_ability_blow_nose"                                                  "Blow Nose"
+				"DOTA_Tooltip_ability_blow_nose_Description"                                      ""
+				"DOTA_Tooltip_ability_blow_nose_goo_speed"                                        "GOO SPEED:"
+				"DOTA_Tooltip_ability_blow_nose_goo_duration"                                     "GOO DURATION:"
+				"DOTA_Tooltip_ability_blow_nose_armor_per_stack"                                  "ARMOR PER STACK:"
+				"DOTA_Tooltip_ability_blow_nose_base_move_slow"                                   "BASE MOVE SLOW:"
+				"DOTA_Tooltip_ability_blow_nose_move_slow_per_stack"                              "MOVE SLOW PER STACK:"
+				"DOTA_Tooltip_ability_blow_nose_stack_limit"                                      "STACK LIMIT:"
+				"DOTA_Tooltip_ability_blow_nose_goo_duration_creep"                               "GOO DURATION CREEP:"
+
+				"DOTA_Tooltip_ability_golden_bank_of_the_boogers"                                 "Golden Bank Of The Boogers"
+				"DOTA_Tooltip_ability_golden_bank_of_the_boogers_Description"                     ""
+				"DOTA_Tooltip_ability_golden_bank_of_the_boogers_base_damage"                     "BASE DAMAGE:"
+				"DOTA_Tooltip_ability_golden_bank_of_the_boogers_damage_per_stack"                "DAMAGE PER STACK:"
+				"DOTA_Tooltip_ability_golden_bank_of_the_boogers_base_move_speed"                 "BASE MOVE SPEED:"
+				"DOTA_Tooltip_ability_golden_bank_of_the_boogers_move_speed_per_stack"            "MOVE SPEED PER STACK:"
+				"DOTA_Tooltip_ability_golden_bank_of_the_boogers_stack_duration"                  "STACK DURATION:"
+				"DOTA_Tooltip_ability_golden_bank_of_the_boogers_max_stacks"                      "MAX STACKS:"
+
+				"DOTA_Tooltip_ability_invite_to_the_party"                                        "Invite To The Party"
+				"DOTA_Tooltip_ability_invite_to_the_party_Description"                            ""
+				"DOTA_Tooltip_ability_invite_to_the_party_bonus_health_regen"                     "BONUS HEALTH REGEN:"
+				"DOTA_Tooltip_ability_invite_to_the_party_duration"                               "DURATION:"
+				"DOTA_Tooltip_ability_invite_to_the_party_bonus_armor"                            "BONUS ARMOR:"
+				"DOTA_Tooltip_ability_invite_to_the_party_resist_debuff"                          "RESIST DEBUFF:"
+				"DOTA_Tooltip_ability_invite_to_the_party_seal_duration"                          "SEAL DURATION:"
+
+
+				"DOTA_Tooltip_ability_gobble_up_a_goat"                                           "Gobble Up A Goat"
+				"DOTA_Tooltip_ability_gobble_up_a_goat_Description"                               ""
+				"DOTA_Tooltip_ability_gobble_up_a_goat_duration"                                  "DURATION:"
+				"DOTA_Tooltip_ability_gobble_up_a_goat_transformation_time"                       "TRANSFORMATION TIME:"
+				"DOTA_Tooltip_ability_gobble_up_a_goat_base_attack_time"                          "BASE ATTACK TIME:"
+				"DOTA_Tooltip_ability_gobble_up_a_goat_bonus_health"                              "BONUS HEALTH:"
+				"DOTA_Tooltip_ability_gobble_up_a_goat_bonus_health_regen"                        "BONUS HEALTH REGEN:"
+				"DOTA_Tooltip_ability_gobble_up_a_goat_bonus_mana_regen"                          "BONUS MANA REGEN:"
+				"DOTA_Tooltip_ability_gobble_up_a_goat_bonus_movespeed"                           "BONUS MOVESPEED:"
+
+	  		//=====================================================================================
+	  		// Stas Rusin
+	  		//=====================================================================================
+		
+				"DOTA_Tooltip_ability_really_serious"                                             "Really Serious"
+				"DOTA_Tooltip_ability_really_serious_Description"                                 ""
+				"DOTA_Tooltip_ability_really_serious_bonus_damage"                                "BONUS DAMAGE:"
+				"DOTA_Tooltip_ability_really_serious_bonus_move_speed"                            "BONUS MOVE SPEED:"
+				"DOTA_Tooltip_ability_really_serious_bonus_range"                                 "BONUS RANGE:"
+				"DOTA_Tooltip_ability_really_serious_base_attack_time"                            "BASE ATTACK TIME:"
+				"DOTA_Tooltip_ability_really_serious_bonus_hp"                                    "BONUS HP:"
+				"DOTA_Tooltip_ability_really_serious_bonus_armor"                                 "BONUS ARMOR:"
+				"DOTA_Tooltip_ability_really_serious_bash_chance"                                 "BASH CHANCE:"
+				"DOTA_Tooltip_ability_really_serious_bash_duration"                               "BASH DURATION:"
+				"DOTA_Tooltip_ability_really_serious_bash_damage"                                 "BASH DAMAGE:"
+
+				"DOTA_Tooltip_ability_submit_solution_really"                                     "Submit Solution Really"
+				"DOTA_Tooltip_ability_submit_solution_really_Description"                         ""
+				"DOTA_Tooltip_ability_submit_solution_really_bonus_spell_damage_pct_allies"       "BONUS SPELL DAMAGE PCT ALLIES:"
+				"DOTA_Tooltip_ability_submit_solution_really_bonus_spell_damage_pct"              "BONUS SPELL DAMAGE PCT:"
+				"DOTA_Tooltip_ability_submit_solution_really_bonus_movement_speed"                "BONUS MOVEMENT SPEED:"
+				"DOTA_Tooltip_ability_submit_solution_really_tooltip_duration"                    "TOOLTIP DURATION:"
+
+				"DOTA_Tooltip_ability_submit_solution_serious"                                    "Submit Solution Serious"
+				"DOTA_Tooltip_ability_submit_solution_serious_Description"                        ""
+				"DOTA_Tooltip_ability_submit_solution_serious_armor_bonus"                        "ARMOR BONUS:"
+				"DOTA_Tooltip_ability_submit_solution_serious_duration"                           "DURATION:"
+
+				"DOTA_Tooltip_ability_chicane"                                                    "Chicane"
+				"DOTA_Tooltip_ability_chicane_Description"                                        ""
+				"DOTA_Tooltip_ability_chicane_max_stacks"                                         "MAX STACKS:"
+				"DOTA_Tooltip_ability_chicane_intel"                                              "INTEL PER STACK:"
+
+				"DOTA_Tooltip_ability_serious_death_damage"                                       "DAMAGE:"
+				"DOTA_Tooltip_ability_serious_death_cast_range_scepter"                           "CAST RANGE SCEPTER:"
+				"DOTA_Tooltip_ability_serious_death_damage_delay"                                 "DAMAGE DELAY:"
+
+				"DOTA_Tooltip_ability_really_death"                                               "Really Death"
+				"DOTA_Tooltip_ability_really_death_Description"                                   ""
+				"DOTA_Tooltip_ability_really_death_damage"                                        "DAMAGE:"
+
+				"DOTA_Tooltip_ability_serious_death"                                              "Serious Death"
+				"DOTA_Tooltip_ability_serious_death_Description"                                  ""
+				"DOTA_Tooltip_ability_serious_death_true_sight_radius"                            "TRUE SIGHT RADIUS:"
+				"DOTA_Tooltip_ability_serious_death_sight_radius"                                 "SIGHT RADIUS:"
+				"DOTA_Tooltip_ability_serious_death_true_sight_duration"                          "TRUE SIGHT DURATION:"
+				"DOTA_Tooltip_ability_serious_death_sight_duration"                               "SIGHT DURATION:"
+				"DOTA_Tooltip_ability_serious_death_spread_aoe"                                   "SPREAD AOE:"
 
 		// ******************** ITEMS ********************
 

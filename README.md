@@ -10,7 +10,7 @@
 
 ## Items
 
-// ==NOTHING==
+
 
 ## Heroes
 
@@ -167,4 +167,7 @@
 - Added [Michael Chlen](#Michael-Chlen)
 - Added [Stas Rusin](#stas-rusin)
 - Added [Berezan](#berezan)
-- Added [Joster](#joster)
+- Added
+
+### 0.2
+

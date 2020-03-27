@@ -1,0 +1,88 @@
+"candies"
+{
+	"BaseClass"             		"ability_datadriven"
+	"AbilityTextureName"			"Berezan/5"
+	"MaxLevel" 						"3"
+	"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+	"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+	"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+	"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+	"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+	"AbilityCooldown"				"10"
+	"AbilityManaCost"				"100"
+
+	"OnUpgrade"
+	{
+		"RunScript"
+		{
+			"ScriptFile"	"heroes/hero_zuus/thundergods_wrath.lua"
+			"Function"		"LevelUpAbility"
+			"ability_name"	"five_ruble"
+		}
+	}
+
+	"AbilitySpecial"
+	{
+		"01"
+		{
+			"var_type"			"FIELD_INTEGER"
+			"move_speed_bonus"			"-20 -40 -60"
+		}
+		"02"
+		{
+			"var_type"			"FIELD_FLOAT"
+			"duration"		"10.0"
+		}
+	}
+
+	"OnSpellStart"
+	{
+		"ApplyModifier"
+		{
+			"ModifierName"	"modifier_steal_candies"
+			"Target" 		"TARGET"
+			"Duration"		"%duration"
+		}
+	}
+
+	"OnCreated"
+	{
+		"ApplyModifier"
+		{
+			"ModifierName"	"modifier_candies_scepter"
+			"Target" 		"CASTER"
+		}
+	}
+
+	"Modifiers"
+	{
+		"modifier_steal_candies"
+		{
+			"IsDebuff"			"1"
+	
+			"EffectName"		"particle_name"
+			"EffectAttachType"	"follow_origin"
+
+			"Properties"
+			{
+			    "MODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE" "%move_speed_bonus" 
+			}
+		}
+
+		"modifier_candies_scepter"
+		{
+			"Passive"			"1"
+			"IsHidden"			"1"
+		
+			"ThinkInterval"  "0.1"
+			"OnIntervalThink"
+			{
+				"RunScript"
+				{
+					"ScriptFile"			"heroes/hero_berezan/candies.lua"
+					"Function"				"CheckScepter"
+				}
+			}
+		}
+	}
+}

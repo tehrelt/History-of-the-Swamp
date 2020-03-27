@@ -1,0 +1,64 @@
+"five_ruble"
+{
+	"BaseClass"             		"ability_datadriven"
+	"AbilityTextureName"			"Berezan/4"
+	"MaxLevel" 						"3"
+	"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+	"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+	"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+	"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+	"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+
+	"AbilityCooldown"				"120.0"
+	"AbilityManaCost"				"500"
+
+	"AbilitySpecial"
+	{
+		"01"
+		{
+			"var_type"			"FIELD_INTEGER"
+			"duration"				"0.1"
+		}
+	}
+
+	"OnUpgrade"
+	{
+		"RunScript"
+		{
+			"ScriptFile"	"heroes/hero_zuus/thundergods_wrath.lua"
+			"Function"		"LevelUpAbility"
+			"ability_name"	"candies"
+		}	
+	}
+
+	"OnSpellStart"
+	{
+		"ApplyModifier"
+		{
+			"ModifierName"	"modifier_five_ruble"
+			"Target" 		"TARGET"
+			"Duration"		"%duration"
+		}
+	}
+
+	"Modifiers"
+	{
+		"modifier_five_ruble"
+		{
+			"IsDebuff"			"1"
+	
+			"EffectName"		"particle_name"
+			"EffectAttachType"	"follow_origin"	
+
+			"OnDestroy"
+			{
+				"RunScript"
+				{
+					"ScriptFile"	"heroes/hero_berezan/five_ruble.lua"
+					"Function"		"Main"
+					"modifier"		"modifier_five_ruble"
+				}
+			}		
+		}
+	}
+}

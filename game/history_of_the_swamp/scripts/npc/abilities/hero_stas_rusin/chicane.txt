@@ -1,0 +1,61 @@
+"chicane"
+    {
+    	"BaseClass"             		"ability_datadriven"
+    	"AbilityTextureName"			"Stas/3"
+    	"MaxLevel" 						"1"
+    	"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+    	"AbilitySpecial"
+    	{
+    		"01"
+    		{
+    			"var_type"			"FIELD_INTEGER"
+    			"max_stacks"			"999"
+    		}
+    		"02"
+    		{
+    			"var_type"			"FIELD_FLOAT"
+    			"intel"				"5.0"
+    		}
+    	}
+
+    	"OnDeath"
+    	{
+    		"RunScript"
+    		{
+    					"ScriptFile"	"heroes/hero_stas_rusin/pridurok.lua"
+    					"Function"		"DeathChic"
+    					"modifier"      "modifier_chic_stacks_datadriven"
+    		}
+    	}
+
+    	"Modifiers"
+    	{
+    		"modifier_chic_datadriven"
+    		{
+    			"Passive"			"1"
+    			"IsHidden"			"1"
+
+    			"OnHeroKilled"
+    			{
+    				"RunScript"
+    				{
+    					"ScriptFile"	"heroes/hero_stas_rusin/pridurok.lua"
+    					"Function"		"Main"
+    					"modifier"      "modifier_chic_stacks_datadriven"
+    				}
+    			}
+    			
+    		}
+
+    		"modifier_chic_stacks_datadriven"
+    		{
+    			"IsBuff"			"1"
+    		
+    			"Properties"
+    			{
+    				"MODIFIER_PROPERTY_STATS_INTELLECT_BONUS"	"%intel"
+    			}
+    		}
+    	}
+    }

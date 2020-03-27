@@ -1,0 +1,13 @@
+//=================================================================================================================
+// HERO: Berezan
+//=================================================================================================================
+"npc_dota_hero_berezan"
+{
+	"override_hero"				"npc_dota_hero_death_prophet"
+	"Ability1"					"attention"
+	"Ability2"					"call_to_parents"
+	"Ability3"					"five_o"
+	"Ability4"					"generic_hidden"
+	"Ability5"					"candies"
+	"Ability6"					"five_ruble"
+}
